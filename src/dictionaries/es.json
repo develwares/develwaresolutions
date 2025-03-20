@@ -1,0 +1,69 @@
+{
+    "lenguage": {
+        "welcome": "Idioma"
+    },
+    "home": {
+        "hero": {
+            "title": "Potencia tu proyecto con un equipo de desarrollo de alto nivel",
+            "subtitle": "Diseño y Programación a la Medida de tus Necesidades",
+            "description": "Somos un equipo de 4 expertos en tecnología: un diseñador y tres programadores especializados en crear soluciones digitales innovadoras. Desde sitios web impactantes hasta aplicaciones personalizadas, convertimos tus ideas en realidad."
+        }
+    },
+    "services": {
+        "title": "Servicios",
+        "subtitle": "Combinamos creatividad, tecnología y metodología para ofrecer soluciones digitales que se adaptan a tus necesidades.",
+        "description": "We are a team of four technology experts: a designer and three programmers specialized in creating innovative digital solutions. From stunning websites to custom apps, we turn your ideas into reality.",
+        "services": [
+            {
+                "title": "Gestión de requerimientos",
+                "description": "We create high-quality websites that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/gestion-requerimientos.png"
+            },
+            {
+                "title": "Diseño UX/UI",
+                "description": "We create high-quality mobile apps that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/design.png"
+            },
+            {
+                "title": "Diseño de software",
+                "description": "We create high-quality websites that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/software-design.png"
+            },
+            {
+                "title": "Desarrollo a la medida",
+                "description": "We create high-quality websites that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/desarrollo-a-la-medida.png"
+            }
+        ]
+    },
+    "team": {
+        "title": "Nuestro Equipo",
+        "subtitle": "Somos un equipo apasionado por la tecnología y el desarrollo de software a medida. Conformado por diseñadores y programadores expertos, transformamos ideas en soluciones digitales innovadoras. Nos especializamos en la gestión de requerimientos, diseño UX/UI, arquitectura de software y desarrollo personalizado, garantizando productos funcionales, intuitivos y escalables. Nuestra misión es convertir cada detalle en una oportunidad para crear experiencias digitales que impacten y generen valor.",
+        "members": [
+            {
+                "name": "Juan Pérez",
+                "position": "Diseñador",
+                "image": "/images/team/team-4.png",
+                "description": "I am a designer with a passion for creating beautiful and functional websites. I have experience in web design and development, and I am always looking for new challenges to work on."
+            },
+            {
+                "name": "María González",
+                "position": "Programadora",
+                "image": "/images/team/team-4.png",
+                "description": "I am a programmer with a passion for creating innovative solutions. I have experience in web development and I am always looking for new challenges to work on."
+            },
+            {
+                "name": "Pedro Ramírez",
+                "position": "Programador",
+                "image": "/images/team/team-4.png",
+                "description": "I am a programmer with a passion for creating innovative solutions. I have experience in web development and I am always looking for new challenges to work on."
+            },
+            {
+                "name": "Ana López",
+                "position": "Programadora",
+                "image": "/images/team/team-4.png",
+                "description": "I am a programmer with a passion for creating innovative solutions. I have experience in web development and I am always looking for new challenges to work on."
+            }
+        ]
+    }
+}

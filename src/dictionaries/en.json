@@ -1,0 +1,69 @@
+{
+    "lenguage": {
+        "welcome": "Language"
+    },
+    "home": {
+        "hero": {
+            "title": "Boost your project with a high-level development team",
+            "subtitle": "Design and Programming Tailored to Your Needs",
+            "description": "We are a team of four technology experts: a designer and three programmers specialized in creating innovative digital solutions. From stunning websites to custom apps, we turn your ideas into reality."
+        }
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "We offer a wide range of services to meet your needs",
+        "description": "We are a team of four technology experts: a designer and three programmers specialized in creating innovative digital solutions. From stunning websites to custom apps, we turn your ideas into reality.",
+        "services": [
+            {
+                "title": "Web Development",
+                "description": "We create high-quality websites that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/gestion-requerimientos.png"
+            },
+            {
+                "title": "Mobile App Development",
+                "description": "We create high-quality mobile apps that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/design.png"
+            },
+            {
+                "title": "UI/UX Design",
+                "description": "We create high-quality websites that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/software-design.png"
+            },
+            {
+                "title": "SEO Optimization",
+                "description": "We create high-quality websites that are easy to use and optimized for search engines. Our team of experts uses the latest technologies to create websites that are fast, secure, and easy to maintain.",
+                "image": "/images/services/desarrollo-a-la-medida.png"
+            }
+        ]
+    },
+    "team": {
+        "title": "Our Team",
+        "subtitle": "We are a team of four technology experts: a designer and three programmers specialized in creating innovative digital solutions.",
+        "members": [
+            {
+                "name": "Juan Pérez",
+                "position": "Diseñador",
+                "image": "/images/team/team-4.png",
+                "description": "I am a designer with a passion for creating beautiful and functional websites. I have experience in web design and development, and I am always looking for new challenges to work on."
+            },
+            {
+                "name": "María González",
+                "position": "Programadora",
+                "image": "/images/team/team-4.png",
+                "description": "I am a programmer with a passion for creating innovative solutions. I have experience in web development and I am always looking for new challenges to work on."
+            },
+            {
+                "name": "Pedro Ramírez",
+                "position": "Programador",
+                "image": "/images/team/team-4.png",
+                "description": "I am a programmer with a passion for creating innovative solutions. I have experience in web development and I am always looking for new challenges to work on."
+            },
+            {
+                "name": "Ana López",
+                "position": "Programadora",
+                "image": "/images/team/team-4.png",
+                "description": "I am a programmer with a passion for creating innovative solutions. I have experience in web development and I am always looking for new challenges to work on."
+            }
+        ]
+    }
+}
