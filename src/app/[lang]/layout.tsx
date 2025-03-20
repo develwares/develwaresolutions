@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from 'next/font/google'
-import { i18n,type Locale } from "../../i18n-config"
+import { i18n, type Locale } from "../../i18n-config"
 import "./globals.css";
 
 export async function generateStaticParams() {
@@ -20,19 +20,19 @@ export const metadata: Metadata = {
   description: "Potencia tu Proyecto con un Equipo de Desarrollo de Alto Nivel",
 };
 
-export default function RootLayout({
+type RootLayoutProps = {
+  children: React.ReactNode;
+  params: Promise<{ lang: Locale }>
+}
+
+export default async function RootLayout({
   children,
   params,
-}: Readonly<{
-  children: React.ReactNode
-  params: { lang: Locale }
-}>) {
-  
+}: RootLayoutProps) {
+  const { lang } = await params
   return (
-    <html lang={params.lang}>
-      <body
-        className={`${inter.variable} antialiased`}
-      >
+    <html lang={lang}>
+      <body className={`${inter.variable} antialiased`}>
         {children}
       </body>
     </html>

@@ -4,11 +4,16 @@ import { Locale } from '@/i18n-config'
 import Image from 'next/image'
 import { Mail,MapPin,Phone } from 'lucide-react'
 
-export default async function Home(
-  { params }: { params: { lang: Locale } },
-) {
+type HomeProps = {
+  params: Promise<{ lang: Locale }>
+}
 
-  const dictionary = await getDictionary(params.lang)
+export default async function Home(
+  { params }: HomeProps,
+) {
+  const { lang } = await params
+
+  const dictionary = await getDictionary(lang)
   return (
     <main className='min-h-screen'>
 
